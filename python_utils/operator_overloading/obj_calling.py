@@ -7,5 +7,6 @@ class Timed:
   def __call__(self):
     print("Object created at:", self.created_at)
 
-timed_object = Timed()
-timed_object()
+if __name__=="__main__":
+    timed_object = Timed()
+    timed_object()

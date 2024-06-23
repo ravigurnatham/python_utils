@@ -5,5 +5,7 @@ class CustomClass:
   def __del__(self):
     print(f"Object with value {self.value} is being deleted")
 
-obj = CustomClass(10)
-del obj
+
+if __name__=="__main__":
+    obj = CustomClass(10)
+    del obj
